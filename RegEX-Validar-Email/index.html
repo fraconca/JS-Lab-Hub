@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" name="usuarioNome" id="uNome" placeholder="Nome">
+    <input type="text" name="usuarioEmail" id="uEmail" placeholder="E-mail" >
+
+    <button type="button" onClick="validarNome()">
+        Validar
+    </button>
+  
+  <div class="mensagemFinal">
+    
+    <div id="aviso-erro" style="display: none;">
+      <strong>Email inválido!</strong>
+    </div>
+    
+  </div>
+  <script src="validarEmail.js"></script>
+</body>
+</html>
