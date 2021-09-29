@@ -6,6 +6,7 @@ function validarNome() {
   validarEmail(email);
 }
 
+// Função chamada em validarNome()
 function validarEmail (emailCapturadoDoFormulario) {
   let validarRegExNoEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (emailCapturadoDoFormulario.match(validarRegExNoEmail)) {
